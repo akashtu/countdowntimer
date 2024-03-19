@@ -85,10 +85,12 @@ const CountDown = () => {
           </button>
         </div>
       ) : (
-        <div onClick={() => setCancel(true)}>
-          <button className="btn" onClick={cancelCountdown}>
-            Cancel Timer
-          </button>
+        <div onClick={() => setTimerOver(false)}>
+          <div onClick={() => setCancel(true)}>
+            <button className="btn" onClick={cancelCountdown}>
+              Cancel Timer
+            </button>
+          </div>
         </div>
       )}
       {!timerOver ? (
