@@ -1,0 +1,50 @@
+.datetime {
+  padding: 1rem;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-weight: 600;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.btn {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+.countdown > :nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.countdown > :nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.countdown-box {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+.countdown-box div {
+  width: 90px;
+  height: 90px;
+  background-image: linear-gradient(to bottom right, gray, blue);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 15px;
+}
+.countdown-box div > :nth-child(1) {
+  color: white;
+  font-size: 2rem;
+}
+.countdown-box div > :nth-child(2) {
+  color: gray;
+  font-size: 1.5rem;
+}
